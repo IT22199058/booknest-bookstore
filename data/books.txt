@@ -1,0 +1,7 @@
+PRINTED|B0001|Clean Code|Robert C. Martin|Programming|6500.0|11|720.0
+PRINTED|B0002|Head First Java|Kathy Sierra|Programming|7200.0|8|950.0
+EBOOK|B0003|Effective Java|Joshua Bloch|Programming|3900.0|100|6.5
+PRINTED|B0004|Madol Duwa|Martin Wickramasinghe|Fiction|1200.0|25|300.0
+EBOOK|B0005|Atomic Habits|James Clear|Self-Help|2500.0|100|3.2
+PRINTED|B0006|The Hobbit|J.R.R. Tolkien|Fantasy|3400.0|15|400.0
+PRINTED|B0007|abc|aaa|a|1.0|11|11.0
