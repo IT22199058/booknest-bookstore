@@ -26,7 +26,7 @@ Data files are created/updated in `./data/` (`users.txt`, `books.txt`, `orders.t
 
 
 
-## Components and CRUD (split these between team members)
+
 | Component | Create | Read | Update | Delete | Servlet | JSPs |
 |---|---|---|---|---|---|---|
 | User management | Register | List / search / profile | Edit profile | Admin deletes user | `UserServlet`, `LoginServlet` | login, user-form, users |
