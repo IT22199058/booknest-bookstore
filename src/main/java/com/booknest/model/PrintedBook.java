@@ -10,5 +10,9 @@ public class PrintedBook extends Book {
 
     @Override public String getFormat() { return "PRINTED"; }
 
-   
+    /** Rs. 350 base + Rs. 100 for every 500 g. */
+    @Override public double calculateDeliveryFee() { return 350 + Math.floor(weightGrams / 500) * 100; }
+
+    @Override public String getDetails() { return "Printed, " + (int) weightGrams + " g"; }
+    @Override protected String getExtra() { return String.valueOf(weightGrams); }
 }
