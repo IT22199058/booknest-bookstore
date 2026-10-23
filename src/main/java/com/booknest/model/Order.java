@@ -13,7 +13,12 @@ public class Order {
     private String status;   // PLACED, SHIPPED, DELIVERED, CANCELLED
     private final String date;
 
-   
+    public Order(String id, String userId, String username, String bookId, String bookTitle,
+                 int quantity, double total, String status, String date) {
+        this.id = id; this.userId = userId; this.username = username; this.bookId = bookId;
+        this.bookTitle = bookTitle; this.quantity = quantity; this.total = total;
+        this.status = status; this.date = date;
+    }
 
     public String getId() { return id; }
     public String getUserId() { return userId; }
